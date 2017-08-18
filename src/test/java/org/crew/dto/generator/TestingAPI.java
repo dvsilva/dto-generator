@@ -1,6 +1,7 @@
 package org.crew.dto.generator;
 
 import org.crew.dto.generator.dto.VeiculoDTO;
+import org.crew.dto.generator.model.Veiculo;
 import org.crew.dto.generator.reflection.ReflectUtil;
 import org.crew.dto.generator.service.Service;
 import org.crew.dto.generator.service.ServiceFactory;
@@ -14,7 +15,7 @@ public class TestingAPI {
 		
 		//Service service = ServiceFactory.getService(new VeiculoService());
 		Service service = ServiceFactory.getService(VeiculoService.class);
-		VeiculoDTO veiculo = service.recuperar();
+		Veiculo veiculo = (Veiculo) service.recuperar();
 		
 		System.out.println("========DTO INICIO=======");
 		

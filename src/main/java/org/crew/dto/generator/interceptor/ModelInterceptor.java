@@ -6,7 +6,6 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 import org.crew.dto.generator.annotation.DTOInterceptor;
-import org.crew.dto.generator.annotation.DTOPropertyModel;
 import org.crew.dto.generator.dto.DTO;
 
 public class ModelInterceptor<T> implements InvocationHandler {
