@@ -5,9 +5,13 @@ import org.crew.dto.generator.annotation.DtoProperty;
 
 @DTO(packageName="org.crew.dto.generator.dto")
 public class Cliente {
+	
 	private Long id;
+<<<<<<< HEAD
 
 	@DtoProperty
+=======
+>>>>>>> branch 'master' of https://github.com/dvsilva/dto-generator.git
 	private String nome;
 	private String celular;
 	@DtoProperty

@@ -1,7 +1,10 @@
 package org.crew.dto.generator;
 
 import org.crew.dto.generator.dto.VeiculoDTO;
+<<<<<<< HEAD
 import org.crew.dto.generator.model.Veiculo;
+=======
+>>>>>>> branch 'master' of https://github.com/dvsilva/dto-generator.git
 import org.crew.dto.generator.reflection.ReflectUtil;
 import org.crew.dto.generator.service.Service;
 import org.crew.dto.generator.service.ServiceFactory;
@@ -15,7 +18,11 @@ public class TestingAPI {
 		
 		//Service service = ServiceFactory.getService(new VeiculoService());
 		Service service = ServiceFactory.getService(VeiculoService.class);
+<<<<<<< HEAD
 		Veiculo veiculo = (Veiculo) service.recuperar();
+=======
+		VeiculoDTO veiculo = service.recuperar();
+>>>>>>> branch 'master' of https://github.com/dvsilva/dto-generator.git
 		
 		System.out.println("========DTO INICIO=======");
 		

@@ -9,4 +9,8 @@ import java.lang.annotation.Target;
 @Target( ElementType.METHOD )   
 public @interface DTOInterceptor {
 	
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'master' of https://github.com/dvsilva/dto-generator.git
